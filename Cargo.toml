@@ -1,0 +1,15 @@
+[package]
+name = "injector"
+version = "0.1.0"
+authors = ["Teste"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+bench = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+winapi = { version = "0.3.6", features = ["memoryapi", "winnt", "winuser"] }
+libc = { version = "0.2.69" }

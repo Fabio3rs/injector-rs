@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\injector"
   ],
-  "SelectedNode": "\\src\\lib.rs",
+  "SelectedNode": "\\src\\injector\\mod.rs",
   "PreviewInSolutionExplorer": false
 }
